@@ -19,7 +19,9 @@ public class OversecuredApplication extends Application {
     public void onCreate() {
         super.onCreate();
         updateChecker();
-        invokePlugins();
+        if(true){
+            invokePlugins();
+        }
     }
 
     private void invokePlugins() {
